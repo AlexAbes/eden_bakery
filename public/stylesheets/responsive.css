@@ -1,0 +1,41 @@
+@media screen and (min-width: 480px) {
+/*
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 50%;
+		
+	}*/
+
+	#gallery li {
+		width: 	23%;
+	}
+
+/*	#gallery li {
+		list-style-type: none;
+		padding: 0;
+		cursor: pointer;
+		text-transform: capitalize;
+		display: block;
+		float: left;
+		height: 300px;
+		width: 300px;
+		margin: 30px;
+		margin-top: 20px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+		position: relative;
+	}
+*/
+/*	#gallery li {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 300px;background:#ccc;opacity:.8;font-size:14px;line-height:40px;text-align:center;
+	}*/
+
+}

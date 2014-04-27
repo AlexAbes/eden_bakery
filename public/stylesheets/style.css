@@ -3,18 +3,25 @@
 /* The body needs 50px padding because of the fixed navbar. This is a bootstrap thing. */
 body {
   padding-top: 50px;
+  background-color: #FFF7FF;
 }
 
 h1 {
     text-align: center;
+    color: black;
+}
+
+h2 {
+    color: black;
 }
 
 p {
     text-align: justify;
     padding-right: 20px;
-    padding-left: 20px;
+    padding-left: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: black;
 }
 
 section {
@@ -30,10 +37,16 @@ section {
     margin-bottom: 0px;
 }
 
+/* navbar */
+.navbar-default {
+    background-color: #FF6699;
+    border-color: #E7E7E7;
+}
+
 /*-----------------------------------------------------------------*/
 
 .jumbotron {
-    background-image: url('/images/background.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;
     text-align: center;
     background-position: center;
@@ -42,20 +55,22 @@ section {
 }
 
 .hero {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(255, 247, 255, 0.8);
     border-radius: 3px;
     padding: 30px;
 }
 
+.hero h1 {
+    color: #FF94DB;
+}
 .hero p {
     text-align: center
 }
 
-.jumbotron input {
-    color: darkgrey;
-    margin: 5px;
+.hero a {
+    background-color: #FF94DB;
+    border-color: white;
 }
-
 
 .twitter-share-button {
     width: 77px;
@@ -65,39 +80,104 @@ section {
     background-color: whitesmoke;
 }
 
+/**********************************
+PAGE: BAKING GALLERY PAGES
+***********************************/
 
-/* A sticky footer, or ensuring your footer appears at the bottom of a page whether you have 1 line of text or 50 pages, is annoyingly difficult
-The following css deals with it. */
-
-.wrapper {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -100px; /* same as the footer */
+.page-title h2 {
+    color: #FF6699;
+    text-align: center;
+    font-size: 70px;
 }
 
-.wrapper .container {
-        margin-bottom: 50px; /* deals with mobiles */
+img {
+    max-width: 100%;
+    border-radius: 5px;
 }
- 
-.push {
-    height: 50px; /* same as the footer */
+
+
+#gallery {
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 0px;
 }
-.footer-wrapper {
-    position: relative;
-    height: 50px;
+
+#gallery li {
+    float: left;
+    margin: 5%;
+    background-color: #FF6699;
+    border-radius: 5px;
+    display: block;
+    /*max-height: 40%;*/
+    
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+#about {
+    text-align: center;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+#about img {
+    max-width: 250px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto 30px;
+    padding: 5px 0 0 0;
+}
+
+#about .text p {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+#about a, #about a:visited {
+    color: black;
+    font-weight: bold;
+}
+
+#about .text {
+    display: block;
 }
 
 /*-----------------------------------------------------------------*/
 
-/* The styling for your footer */
+/* The styling for the footer */
 
-footer {
-    width: 100%;
-    /*Do not change the height as it's part of the sticky footer*/
-    height: 80px;
-    background-color: whitesmoke;
-    border-top: 1px solid lightgrey;
-    padding-top: 10px;
-    margin-top: 20px;
+footer a {
+    color: white;
+    text-align: center;
+   
 }
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+footer .container {
+    padding-top: 2.5px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #FF6699;
+    height: 15%;
+    width: 100%;
+    clear: both;
+}
+
+
