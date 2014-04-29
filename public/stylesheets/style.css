@@ -46,7 +46,7 @@ section {
 /*-----------------------------------------------------------------*/
 
 .jumbotron {
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/background.png');
     background-size: cover;
     text-align: center;
     background-position: center;
