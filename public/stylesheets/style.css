@@ -43,6 +43,11 @@ section {
     border-color: #E7E7E7;
 }
 
+.navbar-header img {
+    float: left;
+    padding-right: 10%;
+}
+
 /*-----------------------------------------------------------------*/
 
 .jumbotron {
